@@ -9,6 +9,13 @@ html{
     scroll-behavior: smooth;
 }
 
+.img{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border-radius: 100%;   
+}
+
 nav{
     width: 100%;
     position: fixed;
@@ -47,7 +54,33 @@ section{
     align-items: center;
 }
 
+/* Sobre mim */
+
+.sobremimdiv{
+    height: 100%;
+
+}
+
+.sobremimdiv header{
+
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobremimsection{
+    display: flex;
+
+}
+
+
+
 section h1{
+    font-size: 30px;
+}
+
+i{
     font-size: 30px;
 }
 
