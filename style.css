@@ -51,12 +51,25 @@ section{
     justify-content: center;
     flex-direction: column;
     text-align: justify;
+    
+    margin-bottom: 1px;
     align-items: center;
 }
 
+section:nth-child(3){
+    background-color: red;
+}
+
+
+
 p{
-    height: 100%;
-    padding-top: 5%;
+    height: 80%;
+    padding-top: 6%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 /* Sobre mim */
@@ -66,13 +79,6 @@ p{
     margin: 100px;
     
 
-}
-
-.sobremimdiv header{
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .sobremimsection img{
@@ -89,8 +95,3 @@ section h1{
 i{
     font-size: 30px;
 }
-
-
-
-
- 
