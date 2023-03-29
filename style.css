@@ -190,6 +190,8 @@ section:nth-child(4) i{
 
  summary{
     min-width: 100%;
+    border-top-right-radius: 5px;
+
     width: 100%;
  }
 
@@ -198,7 +200,7 @@ section:nth-child(4) i{
  }
 
  details{
-    border-radius: 0px;
+
     
     width: 100%;
  }
@@ -206,6 +208,7 @@ section:nth-child(4) i{
  .principal{
     cursor: pointer;
     margin: 5px;
+    
 
  }
 
