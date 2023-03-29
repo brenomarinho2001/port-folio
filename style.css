@@ -153,12 +153,21 @@ section:nth-child(4) i{
 
     .imgbemvindo{
         float: none;
-        margin-left: 10%;
+        margin-left: 1  0%;
         padding:0px;
  
     }
+
+    .divimg{
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+    }
     
 }
+
+
 
 
 
