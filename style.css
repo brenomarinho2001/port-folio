@@ -12,16 +12,18 @@ html{
 .img{
     height: 200px;
     width: 200px;
-    border-radius: 100%;   
+   
 }
 
 
 nav{
     width: 100%;
     position: fixed;
-    background: linear-gradient(rgba(0,0,0,0.7),transparent);
+    background: linear-gradient(rgba(0,0,0,0.2),transparent);
     text-align: center;
 }
+
+
 
 nav ul li{
     display: inline-block;
@@ -44,6 +46,7 @@ nav ul li a:hover{
 
 }
 
+
 section{
     width: 100%;
     min-height: 100vh;
@@ -56,42 +59,63 @@ section{
     align-items: center;
 }
 
+/* BEM VINDO */
+
+section:nth-child(2 ){
+    background-color: #5e80b2;
+}
+
+
+/* Habilidades */
+
 section:nth-child(3){
-    background-color: red;
+    background-color: #5e80b2;
+}
+
+section:nth-child(3) h1{
+    color:#ece8c2;
+    margin-bottom: 10px;
+}
+
+section:nth-child(3) i{
+    color:#ece8c2;
+}
+
+section:nth-child(3) i:hover{
+    cursor: pointer;
+}
+
+/* Projetos */
+
+section:nth-child(4){
+    background-color: #933942;
+}
+
+section:nth-child(4) h1{
+    color: #e78c5b
+}
+
+section:nth-child(4) i{
+    color: #e78c5b
 }
 
 
 
-p{
-    height: 80%;
-    padding-top: 6%;
-}
 
-a{
-    text-decoration: none;
-    color: black;
-}
+
+
+
+
+
+
 
 /* Sobre mim */
 
-.sobremimdiv{
-    height: 100%;  
-    margin: 100px;
-    
+.Sobremimmain{
+    background-color: red;
 
-}
-
-.sobremimsection img{
-    float: left;
-    padding: 10px;
-}
-
-
-
-section h1{
-    font-size: 30px;
-}
-
-i{
-    font-size: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
