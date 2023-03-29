@@ -110,6 +110,8 @@ section:nth-child(4) i{
 
 
 
+
+
 /* Sobre mim */
 
 .Sobremimmain{
@@ -123,3 +125,10 @@ section:nth-child(4) i{
     justify-content: center;
 }
 
+/* Media */
+
+@media only screen and (max-width: 600px) {
+    .Sobremimmain p{
+      font-size: 15px;
+    }
+}
