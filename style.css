@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin:0;
@@ -135,6 +136,7 @@ section:nth-child(4) i{
 }
 .pbemvindo{
     padding-top: 58px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -146,11 +148,12 @@ section:nth-child(4) i{
     .pbemvindo{
         padding-top: 5px;
         text-align: justify;
+        
     }
 
     .imgbemvindo{
         float: none;
-        margin-left: 90px;
+        margin-left: 20%;
         padding:0px;
  
     }
@@ -190,9 +193,14 @@ section:nth-child(4) i{
 
  summary{
     min-width: 100%;
-    border-top-right-radius: 5px;
+    
 
     width: 100%;
+ }
+
+ .titulo{
+    border-top-right-radius: 5px;
+ 
  }
 
  .fa-brands{
@@ -212,3 +220,4 @@ section:nth-child(4) i{
 
  }
 
+    
