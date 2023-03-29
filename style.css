@@ -110,6 +110,8 @@ section:nth-child(4) i{
 
 
 
+
+
 /* Sobre mim */
 
 .Sobremimmain{
@@ -123,3 +125,89 @@ section:nth-child(4) i{
     justify-content: center;
 }
 
+/* Media */
+
+.imgbemvindo{
+    border-radius: 100%;
+    float: left;
+    padding:10px;
+
+}
+.pbemvindo{
+    padding-top: 58px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Sobremimmain p{
+      font-size: 15px;
+    }
+
+    .pbemvindo{
+        padding-top: 5px;
+        text-align: justify;
+    }
+
+    .imgbemvindo{
+        float: none;
+        margin-left: 20%;
+        padding:0px;
+ 
+    }
+    
+}
+
+
+
+
+
+.sectionprojetos{
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+ section details{
+    font-size: 16px;
+    color:rgb(80, 80, 80)
+ }
+
+ section details summary{
+    background-color: white;
+   
+    padding: 2%;
+ }
+
+ .filho{
+    background-color: #e8e8e8; 
+ }
+
+ section details p{
+    background-color: white;
+    padding: 2%;
+ }
+
+ summary{
+    min-width: 100%;
+    border-top-right-radius: 5px;
+
+    width: 100%;
+ }
+
+ .fa-brands{
+    font-size: 30px;
+ }
+
+ details{
+
+    
+    width: 100%;
+ }
+
+ .principal{
+    cursor: pointer;
+    margin: 5px;
+    
+
+ }
