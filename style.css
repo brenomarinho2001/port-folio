@@ -144,7 +144,8 @@ section:nth-child(4) i{
     }
 
     .pbemvindo{
-        padding-top: 0px;
+        padding-top: 5px;
+        text-align: justify;
     }
 
     .imgbemvindo{
