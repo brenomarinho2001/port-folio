@@ -48,7 +48,8 @@ nav ul li a:hover{
 
 
 section{
-    width: 100%;
+    z-index: -1;
+    width: auto;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -112,10 +113,12 @@ section:nth-child(4) i{
 /* Sobre mim */
 
 .Sobremimmain{
-    background-color: red;
-
-    width: 100%;
+    background-color: #eaeaea;
+    border-radius: 5px;
+    z-index: 0;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
