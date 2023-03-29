@@ -139,6 +139,13 @@ section:nth-child(4) i{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.iconsbemvindo{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
 
 @media only screen and (max-width: 600px) {
     .Sobremimmain p{
@@ -160,9 +167,16 @@ section:nth-child(4) i{
 
     .divimg{
         width: 100%;
-        
+
         display: flex;
         justify-content: center;
+    }
+
+    .iconsbemvindo{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 30px;
     }
     
 }
