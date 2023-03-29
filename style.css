@@ -127,11 +127,38 @@ section:nth-child(4) i{
 
 /* Media */
 
+.imgbemvindo{
+    border-radius: 100%;
+    float: left;
+    padding:10px;
+
+}
+.pbemvindo{
+    padding-top: 58px;
+}
+
+
 @media only screen and (max-width: 600px) {
     .Sobremimmain p{
       font-size: 15px;
     }
+
+    .pbemvindo{
+        padding-top: 0px;
+    }
+
+    .imgbemvindo{
+        float: none;
+        margin-left: 40px;
+        padding:0px;
+ 
+    }
+    
 }
+
+
+
+
 
 .sectionprojetos{
     width: 80%;
@@ -159,6 +186,10 @@ section:nth-child(4) i{
  summary{
     min-width: 100%;
     width: 100%;
+ }
+
+ .fa-brands{
+    font-size: 30px;
  }
 
  details{
